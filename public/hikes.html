@@ -18,56 +18,66 @@
     <title>Hike SD</title>
     <nav>
         <div class="nav-wrapper  teal darken-4">
-            <a href="#" class="brand-logo center">Hike SD</a>
-            <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="index.html"><i class="large material-icons">home</i></a></li>
-                <li><a href="badges.html"><i class="large material-icons">filter_hdr</i></a></li>
+            <div class="brand-logo center"><i class="large material-icons" style="font-size: 1em;">filter_hdr</i>Hike SD
+            </div>
+            <ul id="nav-mobile" class="left hide-on-small-and-down">
+                <li style="padding-left: 20px;"><i class="large material-icons" style="font-size: 1.75em;">
+                        account_box
+                    </i></li>
+                <li style="padding-left: 10px; font-size: 18px;">
+                    <span class="member-name"></li>
             </ul>
+            <div style="text-align: right; padding-right: 20px;">
+                <a class="navbar-brand" href="/logout">
+                    Logout</a>
+            </div>
         </div>
     </nav>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-
-            <div id="1-3miles" class="col s6 m6 l6 xl3"><a class="waves-effect waves-light btn-large teal darken-4" href="/hikes" style="margin-top: 50px;"><i
-                        class="material-icons left">child_friendly</i>1-3 mi.</a></div>
-            <div id="3-6miles" class="col s6 m6 l6 xl3"><a class="waves-effect waves-light btn-large teal darken-4" style="margin-top: 50px;"><i
-                        class="material-icons left">directions_walk</i>3-6 mi.</a></div>
-            <div id="6-10miles" class="col s6 m6 l6 xl3"><a class="waves-effect waves-light btn-large teal darken-4" style="margin-top: 50px;"><i
-                        class="material-icons left">directions_run</i>6-10 mi. </a></div>
-            <div id="10miles" class="col s6 m6 l6 xl3"><a class="waves-effect waves-light btn-large teal darken-4" style="margin-top: 50px;"><i
-                        class="material-icons left">directions_bike</i>10 + mi.</a></div>
-
+        <div class="container">
+            <div class="row">
+                <div id="1-3miles" class="col s6 xl3"><a class="waves-effect waves-light btn-large teal darken-4"
+                        style="margin-top: 50px;"><i class="material-icons left">child_friendly</i>1-3 mi.</a></div>
+                <div id="3-6miles" class="col s6 xl3"><a class="waves-effect waves-light btn-large teal darken-4"
+                        style="margin-top: 50px;"><i class="material-icons left">directions_walk</i>3-6 mi.</a></div>
+                <div id="6-10miles" class="col s6 xl3"><a class="waves-effect waves-light btn-large teal darken-4"
+                        style="margin-top: 50px;"><i class="material-icons left">directions_run</i>6-10 mi. </a></div>
+                <div id="10miles" class="col s6 xl3"><a class="waves-effect waves-light btn-large teal darken-4"
+                        style="margin-top: 50px;"><i class="material-icons left">directions_bike</i>10 + mi.</a></div>
+            </div>
         </div>
         <div class="container" style="text-align: center; width: 100%;">
             <div class="row">
                 <div class="card bgimg" style="height: 240px; width: 425px; margin-top: 100px; display: inline-block">
                     <div id="name" style="font-size: 30px; margin-top: 5px; color: rgb(34, 33, 33);"></div>
                     <div id="weather" style="margin-top: -5px; font-size: 16px; color: rgb(34, 33, 33);"></div>
-                    <div id="temperature" style="text-align: center; margin-top: 30px; font-size: 56px;"></div>
-                    <div class="container" style="width: 100%; margin-top: -5px; font-size: 16px;">
-                    <div class="row">
-                        <div class="col s6" id="humidity" style="text-align: left;"></div>
-                        <div class="col s6" id="wind" style="text-align: right;"></div>
+                    <div id="temperature" style="color: white; text-align: center; margin-top: 30px; font-size: 56px;">
                     </div>
+                    <div class="container" style="color: white; width: 100%; margin-top: -5px; font-size: 16px;">
+                        <div class="row">
+                            <div class="col s6" id="humidity" style="text-align: left;"></div>
+                            <div class="col s6" id="wind" style="text-align: right;"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="container" style="text-align: center;">
+            <div class="row">
+                <div id="hikes"></div>
+            </div>
+        </div>
     </div>
-    <div class="container" style="text-align: center;">
-        <div class="row">
-        <div id="hikes"></div>
-    </div>
-</div>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/weatherAPI.js"></script>
     <script src="js/hikeAPI.js"></script>
+    <script type="text/javascript" src="js/members.js"></script>
 </body>
 
 </html>
