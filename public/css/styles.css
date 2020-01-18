@@ -21,7 +21,7 @@ body{
 
 @media only screen and (max-width: 420px) {
   body {
-    background-size: 1100px 980px;
+    background-size: 1100px 1000px;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -48,7 +48,7 @@ body{
 @media only screen and (max-width: 450px) {
   .bgimg {
       width: 350px;
-      margin-bottom: 80px;
+      margin-bottom: 85px;
   }
 }
 
