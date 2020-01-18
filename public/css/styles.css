@@ -8,6 +8,7 @@ body{
   background-size: 1500px 1000px;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  position: fixed;
 }
 
 @media only screen and (min-height: 1000px) {
