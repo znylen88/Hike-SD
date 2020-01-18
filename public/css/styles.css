@@ -8,6 +8,7 @@ body{
   background-size: 1500px 1200px;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: gray;
 }
 
 @media only screen and (min-height: 1000px) {
@@ -47,7 +48,7 @@ body{
 @media only screen and (max-width: 450px) {
   .bgimg {
       width: 350px;
-      margin-bottom: 67px;
+      margin-bottom: 68px;
   }
 }
 
