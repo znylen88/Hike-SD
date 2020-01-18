@@ -10,6 +10,114 @@ body{
   background-attachment: fixed;
 }
 
+@media only screen and (min-height: 1000px) {
+  body {
+    background-size: 1200px 1366px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  body {
+    background-size: 900px 825px;
+  }
+}
+
+.bgimg {
+  background-image: url("/css/weather.jpg");
+  width: 425px;
+  height: 240px;
+}
+
+@media only screen and (max-width: 450px) {
+  .bgimg {
+      width: 350px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .bgimg {
+      width: 315px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .bgimg {
+      width: 300px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .bgimg {
+      width: 250px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #wind {
+      font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #humidity {
+      font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #wind {
+      font-size: 9.5px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #humidity {
+      font-size: 9.5px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .logout {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #logo {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .logout {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #logo {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .signup {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  .card-title {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .card-title {
+    font-size: 10px;
+  }
+}
+
 .btn {
   background-color: orange;
 }

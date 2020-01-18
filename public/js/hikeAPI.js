@@ -33,7 +33,7 @@ $(document).ready(function () {
                                 var cardTitle = $("<p>" + hikesRes.trails[i].name + ", Hike Count: " + 0 + "</p>");
                             }
 
-                            $(cardTitle).attr("style", "margin: 20px; font-size: 26px; font-weight: bold;");
+                            $(cardTitle).attr("style", "margin: 20px; font-weight: bold;");
                             if (visitedHike) {
                                 $(cardTitle).css('color', 'rgb(0, 77, 65)');
                             }
@@ -60,7 +60,7 @@ $(document).ready(function () {
                             $(cardDiv).append(cardStackedDiv);
 
                             var hikedButton = $("<button class='waves-effect waves-light btn-large teal darken-4'>").text("I Hiked This!");
-                            $(hikedButton).attr("style", "margin: 50px;");
+                            $(hikedButton).attr("style", "margin-top: 30px; margin-bottom: 30px");
                             $(cardContent).append(hikedButton);
                             $(cardStackedDiv).append(cardContent);
                             $(cardDiv).append(cardStackedDiv);
@@ -118,7 +118,7 @@ $(document).ready(function () {
                                 var cardTitle = $("<p>" + hikesRes.trails[i].name + ", Hike Count: " + 0 + "</p>");
                             }
 
-                            $(cardTitle).attr("style", "margin: 20px; font-size: 30px; font-weight: bold;");
+                            $(cardTitle).attr("style", "margin: 20px; font-weight: bold;");
                             if (visitedHike) {
                                 $(cardTitle).css('color', 'rgb(0, 77, 65)');
                             }
@@ -145,7 +145,7 @@ $(document).ready(function () {
                             $(cardDiv).append(cardStackedDiv);
 
                             var hikedButton = $("<button class='waves-effect waves-light btn-large teal darken-4'>>").text("I Hiked This!");
-                            $(hikedButton).attr("style", "margin: 50px;");
+                            $(hikedButton).attr("style", "margin-top: 30px; margin-bottom: 30px");
                             $(cardContent).append(hikedButton);
                             $(cardStackedDiv).append(cardContent);
                             $(cardDiv).append(cardStackedDiv);
@@ -203,7 +203,7 @@ $(document).ready(function () {
                                 var cardTitle = $("<p>" + hikesRes.trails[i].name + ", Hike Count: " + 0 + "</p>");
                             }
 
-                            $(cardTitle).attr("style", "margin: 20px; font-size: 30px; font-weight: bold;");
+                            $(cardTitle).attr("style", "margin: 20px; font-weight: bold;");
                             if (visitedHike) {
                                 $(cardTitle).css('color', 'rgb(0, 77, 65)');
                             }
@@ -230,7 +230,7 @@ $(document).ready(function () {
                             $(cardDiv).append(cardStackedDiv);
 
                             var hikedButton = $("<button class='waves-effect waves-light btn-large teal darken-4'>>").text("I Hiked This!");
-                            $(hikedButton).attr("style", "margin: 50px;");
+                            $(hikedButton).attr("style", "margin-top: 30px; margin-bottom: 30px");
                             $(cardContent).append(hikedButton);
                             $(cardStackedDiv).append(cardContent);
                             $(cardDiv).append(cardStackedDiv);
@@ -287,7 +287,7 @@ $(document).ready(function () {
                                 var cardTitle = $("<p>" + hikesRes.trails[i].name + ", Hike Count: " + 0 + "</p>");
                             }
 
-                            $(cardTitle).attr("style", "margin: 20px; font-size: 30px; font-weight: bold;");
+                            $(cardTitle).attr("style", "margin: 20px; font-weight: bold;");
                             if (visitedHike) {
                                 $(cardTitle).css('color', 'rgb(0, 77, 65)');
                             }
@@ -314,7 +314,7 @@ $(document).ready(function () {
                             $(cardDiv).append(cardStackedDiv);
 
                             var hikedButton = $("<button class='waves-effect waves-light btn-large teal darken-4'>>").text("I Hiked This!");
-                            $(hikedButton).attr("style", "margin: 50px;");
+                            $(hikedButton).attr("style", "margin-top: 30px; margin-bottom: 30px");
                             $(cardContent).append(hikedButton);
                             $(cardStackedDiv).append(cardContent);
                             $(cardDiv).append(cardStackedDiv);
