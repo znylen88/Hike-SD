@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": "Engert88",
-    "database": "HikeSD_db",
-    "host": "127.0.0.1",
+    "username": "nx3omsaid53ckdrr",
+    "password": "ejpkybga7dhlj5zr",
+    "database": "u0e6mrepbhu1e3qd",
+    "host": "l7cup2om0gngra77.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": "Engert88",
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "username": "nx3omsaid53ckdrr",
+    "password": "ejpkybga7dhlj5zr",
+    "database": "u0e6mrepbhu1e3qd",
+    "host": "l7cup2om0gngra77.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": "Engert88",
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "nx3omsaid53ckdrr",
+    "password": "ejpkybga7dhlj5zr",
+    "database": "u0e6mrepbhu1e3qd",
+    "host": "l7cup2om0gngra77.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   }
 }
