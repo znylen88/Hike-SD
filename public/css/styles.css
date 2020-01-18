@@ -28,6 +28,18 @@ body{
   height: 240px;
 }
 
+@media only screen and (min-width: 1201px) {
+  #weatherCard {
+      margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #weatherCard {
+      margin-top: 0px;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .bgimg {
       width: 350px;
@@ -88,15 +100,15 @@ body{
   }
 }
 
-@media only screen and (max-width: 350px) {
-  .logout {
-    font-size: 12px;
+@media only screen and (max-width: 450px) {
+  #logo {
+    font-size: 30px;
   }
 }
 
 @media only screen and (max-width: 350px) {
-  #logo {
-    font-size: 24px;
+  .logout {
+    font-size: 12px;
   }
 }
 
@@ -109,6 +121,12 @@ body{
 @media only screen and (min-width: 450px) {
   .card-title {
     font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .card-title {
+    font-size: 10px;
   }
 }
 
