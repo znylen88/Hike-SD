@@ -5,14 +5,14 @@ html {
 
 body{
   background-image: url("hikesd.jpg");
-  background-size: 1500px 1000px;
+  background-size: 1500px;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 @media only screen and (min-height: 1000px) {
   body {
-    background-size: 1200px 1800px;
+    background-size: 1200px 1366px;
   }
 }
 
