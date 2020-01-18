@@ -26,7 +26,7 @@ $(document).ready(function () {
                             var containerDiv = $("<div>");
 
                             var cardDiv = $("<div class='card horizontal' id=" + hikesRes.trails[i].id + "></div>")
-                            $(cardDiv).attr("style", "display: flex; flex-direction: column;  color: rgb(34, 33, 33); background-color: white; border: rgb(0, 77, 65) solid 25px");
+                            $(cardDiv).attr("style", "display: flex; flex-direction: column;  color: rgb(34, 33, 33); background-color: white;");
                             if (visitedHike) {
                                 var cardTitle = $("<p>" + hikesRes.trails[i].name + ", Hike Count: " + visitedHike.visitor_count + "</p>");
                             } else {
