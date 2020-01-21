@@ -63,16 +63,11 @@ Zach Nylen (GitHub: znylen88) - API's/Javascript/JQuery/HTML/CSS/MYSQL/Heroku/AP
 
 https://hike-sd.herokuapp.com/
 
+## App Signup Page:
 
-## Below is a screenshot of the loaded homepage of the app:
-
+ ![App Function](https://github.com/znylen88/Hike-SD/blob/master/public/GitHub-Images/Signup-Page.png)
  
-
-## Below is a screenshot of ADD burger functionality:
-
- ![App Function](https://github.com/znylen88/Burger/blob/master/public/assets/js/Demo-Add-New-Burger.png)
- 
-## Below is a screenshot of MOVING burgers to the right of the screen once "devoured":
+## Below is a rendered list of hikes within the "10+ Miles" category:
 
  ![App Function](https://github.com/znylen88/Burger/blob/master/public/assets/js/Demo-Move-To-Right-Of-Screen.png)
  
