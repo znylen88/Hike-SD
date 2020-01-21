@@ -63,12 +63,12 @@ Zach Nylen (GitHub: znylen88) - API's/Javascript/JQuery/HTML/CSS/MYSQL/Heroku/AP
 
 https://hike-sd.herokuapp.com/
 
-## App Signup Page:
+## App Signup:
 
  ![App Function](https://github.com/znylen88/Hike-SD/blob/master/public/GitHub-Images/Signup-Page.png)
  
 ## Below is a rendered list of hikes within the "10+ Miles" category:
 
- ![App Function](https://github.com/znylen88/Burger/blob/master/public/assets/js/Demo-Move-To-Right-Of-Screen.png)
+ ![App Function](https://github.com/znylen88/Hike-SD/blob/master/public/GitHub-Images/Rendered-Hikes.png)
  
 
