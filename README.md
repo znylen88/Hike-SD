@@ -41,9 +41,9 @@ Hike-SD is a hiking app that allows users to search hikes within the San Diego a
 
 ## Credits
 
-Nic Serra (GitHub: nserra310) - HTML/CSS/Google Materialize/API-Routes/Javascript/MySQL
+Nicholas Serra (GitHub: nserra310) - HTML/CSS/Google Materialize/API-Routes/Javascript/MySQL
 
-Sean Thomason (GitHub: HBlome) - HTML/PowerPoint
+Holly Blome (GitHub: HBlome) - HTML/PowerPoint
 
 Rod Nicolau (GitHub: RodNick10) - MySQL/Models
 
