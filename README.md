@@ -65,7 +65,7 @@ https://hike-sd.herokuapp.com/
 
 ## App Signup:
 
- ![App Function](https://github.com/znylen88/Hike-SD/blob/master/public/GitHub-Images/Signup-Page.png, https://github.com/znylen88/Hike-SD/blob/master/public/GitHub-Images/Rendered-Hikes.png)
+ ![App Function](https://github.com/znylen88/Hike-SD/blob/master/public/GitHub-Images/Signup-Page.png)
  
 ## Below is a rendered list of hikes within the "10+ Miles" category:
 
