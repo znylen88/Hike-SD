@@ -1,6 +1,10 @@
 # Hike-SD
 Hike-SD is a hiking app specific to the San Diego area which allows users to search hikes based on trail length.
 
+## App Homepage:
+
+![App Function](https://github.com/znylen88/Hike-SD/blob/master/public/GitHub-Images/Hike-SD-Homepage.png)
+
 ## Application Requirements
 
 * Must use a Node and Express server
@@ -62,7 +66,7 @@ https://hike-sd.herokuapp.com/
 
 ## Below is a screenshot of the loaded homepage of the app:
 
- ![App Function](https://github.com/znylen88/Burger/blob/master/public/assets/js/Demo-Original-Burgers.png)
+ 
 
 ## Below is a screenshot of ADD burger functionality:
 
