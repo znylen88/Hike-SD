@@ -1,6 +1,10 @@
 # Hike-SD
 Hike-SD is a hiking app specific to the San Diego area which allows users to search hikes based on trail length.
 
+## App Homepage:
+
+![App Function](https://github.com/znylen88/Hike-SD/blob/master/public/GitHub-Images/Hike-SD-Homepage.png)
+
 ## Application Requirements
 
 * Must use a Node and Express server
@@ -41,7 +45,7 @@ Hike-SD is a hiking app that allows users to search hikes within the San Diego a
 
 ## Credits
 
-Nicholas Serra (GitHub: nserra310) - HTML/CSS/Google Materialize/API-Routes/Javascript/MySQL
+Nicholas Serra (GitHub: nserra310) - HTML/CSS/Google Materialize/API-Routes/Javascript/MySQL/Tech Diagram
 
 Holly Blome (GitHub: HBlome) - HTML/PowerPoint
 
@@ -59,17 +63,7 @@ Zach Nylen (GitHub: znylen88) - API's/Javascript/JQuery/HTML/CSS/MYSQL/Heroku/AP
 
 https://hike-sd.herokuapp.com/
 
+## App Signup:
 
-## Below is a screenshot of the loaded homepage of the app:
-
- ![App Function](https://github.com/znylen88/Burger/blob/master/public/assets/js/Demo-Original-Burgers.png)
-
-## Below is a screenshot of ADD burger functionality:
-
- ![App Function](https://github.com/znylen88/Burger/blob/master/public/assets/js/Demo-Add-New-Burger.png)
- 
-## Below is a screenshot of MOVING burgers to the right of the screen once "devoured":
-
- ![App Function](https://github.com/znylen88/Burger/blob/master/public/assets/js/Demo-Move-To-Right-Of-Screen.png)
- 
+ ![App Function](https://github.com/znylen88/Hike-SD/blob/master/public/GitHub-Images/Signup-Page.png)
 
